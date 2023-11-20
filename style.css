@@ -1,0 +1,107 @@
+header{
+	text-align: center;
+	background-color: #1a2617;
+	color: #c4d5b4;
+	height: auto;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1001;
+}
+
+nav{
+	position: fixed;
+	text-align: left;
+	background-color:#a0b889;
+	height: 87%;
+	width: 20%;
+	left: 20px;
+	top: 100px;
+	z-index: 1000;
+	color: #212e19;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	color: #fe763c;
+}
+
+.nav_naslov{
+	text-align: center;
+}
+
+.hr_nav{
+	width: 80%;
+}
+
+main{
+	position: relative;
+	float: right;
+	width: 73%;
+	height: auto;
+	/*left: 25%;*/
+	padding-left: 20px;
+	top: 100px;
+	padding-top: 20px;
+	background-color: #c8cd89;
+	z-index: 1;
+}
+
+li{
+	padding-top: 7px;
+}
+
+footer{
+	position: relative;
+	float: right;
+	width: 74%;
+	height: auto;
+	/*left: 25%;*/
+	/*top: 1600px;*/
+	background-color: #0a1007;
+	color: #9fa497;
+	text-align: center;
+	margin-top: 120px;
+	margin-bottom: 20px;
+	z-index: 3;
+}
+
+.kontakt{
+	text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+	nav, main, footer{
+		position: relative;
+		width: 98%;
+		height: auto;
+		margin-top: 0px;
+		left: 0px;
+
+	}
+	nav{
+		text-align: center;
+		top: 70px;
+	}
+	footer{
+		width: 100%;
+		float: left;
+		margin-top: 100px;
+		margin-bottom: 0px;
+	}
+	.ul_nav{
+		display: inline-block;
+		margin-right: 50px;
+	}
+}
+
+@media screen and (max-width: 407px) {
+	nav{
+		top: 110px;
+	}
+}
